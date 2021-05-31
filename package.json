@@ -1,0 +1,54 @@
+{
+  "_from": "country-geolocalizer",
+  "_location": "/country-geolocalizer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "country-geolocalizer",
+    "name": "country-geolocalizer",
+    "escapedName": "country-geolocalizer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "author": {
+    "name": "Raúl Polanco Montiel",
+    "email": "rapomon@gmail.com",
+    "url": "https://github.com/rapomon"
+  },
+  "bugs": {
+    "url": "https://github.com/rapomon/country-geolocalizer/issues"
+  },
+  "deprecated": false,
+  "description": "This module takes a latitude and longitude and determine the country code where it is contained.",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2"
+  },
+  "homepage": "https://github.com/rapomon/country-geolocalizer",
+  "keywords": [
+    "country",
+    "geolocalizer",
+    "reverse",
+    "geocoding",
+    "geojson",
+    "latitude",
+    "longitude"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "country-geolocalizer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapomon/country-geolocalizer.git"
+  },
+  "scripts": {
+    "test": "tape ./test/*spec.js | tap-spec"
+  },
+  "version": "1.0.0"
+}
