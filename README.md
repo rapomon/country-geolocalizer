@@ -1,5 +1,11 @@
-country-geolocalizer
-====================
+# :warning: DEPRECATION WARNING!
+
+### Version no longer supported.
+#### Use https://www.npmjs.com/package/geojson-places instead.
+
+---
+
+# country-geolocalizer
 
 This module takes a latitude and longitude and determine the country where it is contained.
 
